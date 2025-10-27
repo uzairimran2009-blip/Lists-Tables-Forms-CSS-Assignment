@@ -1,0 +1,118 @@
+body{
+    background-color:#F8F8F8;
+    font-size: 78%;
+}
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-shadow: -2px -2px 1px rgba(0, 0, 0, 0.5);
+}
+li{
+    list-style-image: url("star.png");
+}
+table{
+    border-collapse: collapse;
+    width: 670px;
+}
+tr#row1 th{
+    background-color: rgb(144, 180, 214);
+    border-right: 1px solid rgb(116, 154, 190);
+    border-bottom: 2px solid rgb(84, 124, 160);
+    color: rgb(255, 255, 250);
+    padding: 5px 20px 5px 10px;
+    text-shadow: -1px -1px 1px #000000;
+}
+td{
+    text-shadow: 1px 1px 1px #ffffff;
+}
+th{
+    text-shadow: -1px 1px 1px #666666;
+}
+tr#rowb td{
+    background-color: rgb(224, 233, 240);
+    border: 2px solid rgb(203, 210, 216);
+    border-left: none;
+    border-top: none;
+    padding: 5px 20px 5px 10px;
+}
+tr#rowb th{
+    background-color: rgb(224, 233, 240);
+    border: 2px solid rgb(203, 210, 216);
+    border-left: none;
+    border-top: none;
+    text-align: left;
+    padding: 10px;
+}
+tr#rowc td{
+    background-color: rgb(232, 239, 245);
+    border: 2px solid rgb(203, 210, 216);
+    border-left: none;
+    padding: 5px 20px 5px 10px;
+}
+tr#rowc th{
+    background-color: rgb(232, 239, 245);
+    border: 2px solid rgb(203, 210, 216);
+    border-left: none;
+    text-align: left;
+    padding-left: 10px;
+}
+fieldset {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 330px;
+    height: 140px;
+    line-height: 1.4em;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 10px;
+    background-color: #ffffff;
+}
+legend{
+    font-style: italic;
+}
+.input{
+    margin-right: 80px;
+}
+.tupni{
+    border: 1px solid #999999;
+    width: 130px;
+}
+input:hover{
+    background-color: #D0E2F0;
+    border: 1px solid #000000;
+}
+#select{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #e9e2e2;
+}
+#select:hover{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+#radio{
+    margin-top: 15px;
+}
+.oidar{
+    margin-left: 19px;
+    border: 1px solid #000000;
+    background-color: #666666;
+}
+button#submit{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 17px;
+    background-color: rgb(0, 153, 102);
+    border: 1px solid rgb(0, 102, 51);
+    color: #ffffff;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+button#submit:hover{
+    background-color: rgb(0, 204, 51);
+    border: 1px solid rgb(0, 142, 51);
+    cursor: pointer;
+}

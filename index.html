@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form,List,Table CSS Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Poetry Workshops</h1>
+  <p>
+    We will be conducting a number of poetry Workshops and symposiums
+    throughout the year.
+  </p>
+  <p>Please note that the following events are free to member:</p>
+  <ul>
+    <li>A Poetic Perspectiv</li>
+    <li>Wait Whitman at War</li>
+    <li>Found Poems & Outsider Poetry</li>
+  </ul>
+  <table>
+    <tr id="row1">
+      <th style="border-top-left-radius: 5px;"></th>
+      <th>New York</th>
+      <th>Chicago</th>
+      <th style="border-top-right-radius: 5px;">San Francisco</th>
+    </tr>
+    <tr id="rowb">
+      <th>A Poetic Perspective</th>
+      <td>Sat, 4 Fed 2012 <br />11am-2pm</td>
+      <td>Sat, 3 Mar 2012 <br />11am-2pm</td>
+      <td>Sat, 17 Mar 2012 <br />11am-2pm</td>
+    </tr>
+    <tr id="rowc">
+      <th>Walt Whitman at War</th>
+      <td>Sat, 7 Apr 2012 <br />11am-1pm</td>
+      <td>Sat, 5 May 2012 <br />11am-1pm</td>
+      <td>Sat, 19 May 2012 <br />11am-1pm</td>
+    </tr>
+    <tr id="rowb">
+      <th>Found Poems & Outsider Poetry</th>
+      <td>Sat, 9 Jun 2012 <br />11am-2pm</td>
+      <td>Sat, 7 Jul 2012 <br />11am-2pm</td>
+      <td>Sat, 21 Jul 2012 <br />11am-2pm</td>
+    </tr>
+    <tr id="rowc">
+      <th>Natural Death: An Exploration</th>
+      <td>Sat, 4 Aug 2012 <br />11am-4pm</td>
+      <td>Sat, 8 Sep 2012 <br />11am-4pm</td>
+      <td>Sat, 15 Sep 2012 <br />11am-4pm</td>
+    </tr>
+  </table>
+  <form id="form">
+    <fieldset id="content">
+      <legend>Register your interest</legend>
+      <label class="input">Your name:</label>
+      <input type="text" required class="tupni" />
+      <br>
+      <label class="input">Your email:</label>
+      <input type="email" required class="tupni" />
+      <br>
+      <span>Your closest center:</span>
+      <select id="select">
+        <option value="New York">New York</option>
+        <option value="Chicago">Chicago</option>
+        <option value="San Francisco">San Francisco</option>
+      </select>
+      <br>
+      <div id="radio"><span>Are you a member?</span>
+        <input type="radio" name="member" class="oidar" checked/>Yes
+        <input type="radio" name="member" class="oidar" checked/>No
+      </div>
+    </fieldset>
+    <button id="submit">Register</button>
+  </form>
+</body>
+
+</html>
